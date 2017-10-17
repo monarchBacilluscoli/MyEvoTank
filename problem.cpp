@@ -28,8 +28,8 @@ namespace my_tank {
 
 	void problem::print() {
 		if (m_dimension_size > 2) throw my_except("console can not print a problem which dimension larger than 2@problem::print()");
-		for (size_t i = 0; i < m_map[0]; i++) {
-			for (size_t j = 0; j < m_map[1]; j++) {
+		for (size_t i = 0; i < m_map[1]; i++) {
+			for (size_t j = 0; j < m_map[0]; j++) {
 				std::cout << ". ";
 				for (size_t k = 0; k < m_enemy_formation.tanks().size(); k++) {
 					if ((m_enemy_formation[k])[0] == i&&m_enemy_formation[k][1] == j) {

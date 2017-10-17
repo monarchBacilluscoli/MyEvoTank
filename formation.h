@@ -4,7 +4,6 @@
 #include<vector>
 #include"tank.h"
 
-
 namespace my_tank {
 	class formation {
 	public:
@@ -24,6 +23,9 @@ namespace my_tank {
 		~formation() = default;
 		
 	private:
+		//TODO:move here
+		bool valid_check();
+
 		std::vector<tank> m_tanks;
 	};
 }

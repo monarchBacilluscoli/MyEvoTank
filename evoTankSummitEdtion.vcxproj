@@ -21,6 +21,7 @@
   <ItemGroup>
     <ClCompile Include="formation.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PEA.cpp" />
     <ClCompile Include="problem.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -30,6 +31,7 @@
     <ClInclude Include="PEA.h" />
     <ClInclude Include="problem.h" />
     <ClInclude Include="tank.h" />
+    <ClInclude Include="utility.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

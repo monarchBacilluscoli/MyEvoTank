@@ -1,2 +1,4 @@
-﻿  formation.cpp
-  evoTankSummitEdtion.vcxproj -> G:\C++Projects\Task\MyEvoTank\EvoTankSummitEdition\x64\Debug\evoTankSummitEdtion.exe
+﻿  main.cpp
+g:\c++projects\task\myevotank\utility.h(12): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+g:\c++projects\task\myevotank\utility.h(13): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  evoTankSummitEdtion.vcxproj -> G:\C++Projects\Task\MyEvoTank\x64\Debug\evoTankSummitEdtion.exe
